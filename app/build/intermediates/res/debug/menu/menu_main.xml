@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="io.postach.willowcheng.rotation.MainActivity">
+    <item android:id="@+id/action_perform" android:title="@string/action_perform"
+        android:icon="@drawable/action_perform"
+        app:showAsAction="always"/>
+</menu>
+<!-- From: file:/C:/AndroidWorkspace/Rotation/app/src/main/res/menu/menu_main.xml -->

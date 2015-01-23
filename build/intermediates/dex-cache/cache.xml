@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-161fe91d52bd2caba062c035e0571d42c74519f3.jar" />
+    </item>
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\libs\processing-core.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3d21c0ab1c82c5a0c0a2448a1f38d479110210ca">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\processing-core-ebfbf4f9b46edac3fef26b86e276885b188df540.jar" />
+    </item>
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6c105956a4c58681d901f8c01082b2a4f715a8d2.jar" />
+    </item>
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-93fc9d189bef138c94804426b7119a4ed2ebf620.jar" />
+    </item>
+    <item
+        jar="D:\Dev\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5a65484bca24f0eb09cf9d9cc77fbe930774c770.jar" />
+    </item>
+
+</items>

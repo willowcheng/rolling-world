@@ -1,0 +1,6 @@
+C:\AndroidWorkspace\Rotation\app\build\intermediates\classes\debug
+C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5a65484bca24f0eb09cf9d9cc77fbe930774c770.jar
+C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6c105956a4c58681d901f8c01082b2a4f715a8d2.jar
+C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-93fc9d189bef138c94804426b7119a4ed2ebf620.jar
+C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-161fe91d52bd2caba062c035e0571d42c74519f3.jar
+C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\processing-core-ebfbf4f9b46edac3fef26b86e276885b188df540.jar
