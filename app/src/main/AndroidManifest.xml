@@ -17,7 +17,7 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
-        android:label="Rotation"
+        android:label="Rolling World"
         android:theme="@style/AppTheme">
         <activity android:name=".SketchActivity"
             android:label="SketchActivity">

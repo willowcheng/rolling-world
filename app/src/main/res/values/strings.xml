@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_activity_main">Rotation</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Rolling World</string>
     <string name="action_perform">Perform</string>
 
 </resources>

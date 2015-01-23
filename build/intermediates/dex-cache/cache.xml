@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0-86a3a889d3289ab8830a20cb94dfc5ce4850220c.jar" />
+    </item>
+    <item
         jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.1"
@@ -28,6 +35,34 @@
         revision="21.1.1"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-93fc9d189bef138c94804426b7119a4ed2ebf620.jar" />
+    </item>
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-fe3217b1edb3fa3c8155746048a43478744945d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\systembartint-1.0.3-631beaddd3219c39bd6e650a2968dbf5420deae7.jar" />
+    </item>
+    <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.8\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e724073d032731be77fad0f993e2970fb4429e3a">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-1e7455881587a190f9a7ccb01b30da8414074e18.jar" />
+    </item>
+    <item
+        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\library-2.4.0-7a28406f3b57ff8f91712a535794635317c5ce04.jar" />
     </item>
     <item
         jar="D:\Dev\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
