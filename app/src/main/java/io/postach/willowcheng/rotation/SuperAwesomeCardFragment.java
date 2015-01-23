@@ -41,10 +41,15 @@ public class SuperAwesomeCardFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_card,container,false);
+        View rootView;
+        switch (position){
+            case 0: rootView = inflater.inflate(R.layout.fragment_android,container,false);break;
+            case 1: rootView = inflater.inflate(R.layout.fragment_ipad,container,false);break;
+            case 2: rootView = inflater.inflate(R.layout.fragment_desktop,container,false);break;
+            default: rootView = inflater.inflate(R.layout.fragment_desktop,container,false);break;
+        }
         ButterKnife.inject(this, rootView);
         ViewCompat.setElevation(rootView,50);
-        textView.setText("CARD "+position);
         return rootView;
     }
 }

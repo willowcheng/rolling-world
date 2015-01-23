@@ -7,11 +7,11 @@ import butterknife.ButterKnife.Finder;
 public class MainActivity$$ViewInjector {
   public static void inject(Finder finder, final io.postach.willowcheng.rotation.MainActivity target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131230792, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131230796, "field 'toolbar'");
     target.toolbar = (android.support.v7.widget.Toolbar) view;
-    view = finder.findRequiredView(source, 2131230785, "field 'tabs'");
+    view = finder.findRequiredView(source, 2131230788, "field 'tabs'");
     target.tabs = (com.astuetz.PagerSlidingTabStrip) view;
-    view = finder.findRequiredView(source, 2131230786, "field 'pager'");
+    view = finder.findRequiredView(source, 2131230789, "field 'pager'");
     target.pager = (android.support.v4.view.ViewPager) view;
   }
 

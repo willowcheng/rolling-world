@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="8dp"
-            tools:text="Card" />
+            android:text="DESKTOP INSTRUCTION"
+            tools:text="DESKTOP INSTRUCTION" />
     </android.support.v7.widget.CardView>
-</FrameLayout><!-- From: file:/C:/AndroidWorkspace/Rotation/app/src/main/res/layout/fragment_card.xml -->
+</FrameLayout><!-- From: file:/C:/AndroidWorkspace/Rotation/app/src/main/res/layout/fragment_desktop.xml -->

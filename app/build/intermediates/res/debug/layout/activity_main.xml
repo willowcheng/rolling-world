@@ -36,9 +36,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dip"
             android:layout_weight="1"
-            android:background="@color/green"
+            android:background="@color/blue"
             android:onClick="onColorClicked"
-            android:tag="@color/green" />
+            android:tag="@color/blue" />
 
         <ImageView
             android:layout_width="0dip"

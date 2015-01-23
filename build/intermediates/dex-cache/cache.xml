@@ -30,6 +30,13 @@
         <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6c105956a4c58681d901f8c01082b2a4f715a8d2.jar" />
     </item>
     <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.github.mrengineer13\snackbar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="60dd1fe9808ce6bce3e9fe2adfafffbad51a5848">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-4221b2d599fb29fa4ca34733137377e906ebd206.jar" />
+    </item>
+    <item
         jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.1"

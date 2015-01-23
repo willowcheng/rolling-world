@@ -7,7 +7,7 @@ import butterknife.ButterKnife.Finder;
 public class SuperAwesomeCardFragment$$ViewInjector {
   public static void inject(Finder finder, final io.postach.willowcheng.rotation.SuperAwesomeCardFragment target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131230790, "field 'textView'");
+    view = finder.findRequiredView(source, 2131230793, "field 'textView'");
     target.textView = (android.widget.TextView) view;
   }
 

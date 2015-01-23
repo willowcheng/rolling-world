@@ -11,9 +11,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,12 +21,13 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.astuetz.PagerSlidingTabStrip;
+import com.github.mrengineer13.snackbar.SnackBar;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
-public class MainActivity extends ActionBarActivity{
+public class MainActivity extends ActionBarActivity {
 
     @InjectView(R.id.toolbar)
     Toolbar toolbar;
@@ -112,8 +113,33 @@ public class MainActivity extends ActionBarActivity{
     }
 
     public void onColorClicked(View v) {
+        String message = "";
         int color = Color.parseColor(v.getTag().toString());
         changeColor(color);
+        switch (v.getTag().toString()) {
+            case "#ff00bcd4":
+                message = getString(R.string.tip1);
+                break;
+            case "#fff44336":
+                message = getString(R.string.tip2);
+                break;
+            case "#ffff9800":
+                message = getString(R.string.tip3);
+                break;
+            case "#ff009688":
+                message = getString(R.string.tip4);
+                break;
+            case "#ff9c27b0":
+                message = getString(R.string.tip5);
+                break;
+        }
+        new SnackBar.Builder(this)
+                .withMessage(message)
+                .withActionMessage("Got it")
+                .withTextColorId(R.color.primaryColor)
+                .withStyle(SnackBar.Style.DEFAULT)
+                .withDuration(SnackBar.MED_SNACK)
+                .show();
     }
 
     @Override
@@ -131,7 +157,7 @@ public class MainActivity extends ActionBarActivity{
 
     public class MyPagerAdapter extends FragmentPagerAdapter {
 
-        private final String[] TITLES = {"Rhythm World (Desktop)", "Vision World (iPad)", "Rolling World (Android)"};
+        private final String[] TITLES = {"Rolling World (Android)", "Vision World (iPad)", "Rhythm World (Desktop)"};
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);

@@ -3,5 +3,11 @@
 
     <string name="title_activity_main">Rolling World</string>
     <string name="action_perform">Perform</string>
+    <string name="tip1">Tip 1</string>
+    <string name="tip2">Tip 2</string>
+    <string name="tip3">Tip 3</string>
+    <string name="tip4">Tip 4</string>
+    <string name="tip5">Tip 5</string>
+    <string name="tip6">Tip 6</string>
 
 </resources>
