@@ -27,7 +27,7 @@ public class SketchActivity extends PApplet {
 
 //Copyright (c) 2013 Mick Grierson, Matthew Yee-King, Marco Gillies
 
-    Maxim maxim1, maxim2, maxim3, maxim4;
+    Maxim maxim;
     AudioPlayer playerL, playerR, playerF, playerB;
     Accelerometer accel;
 
@@ -42,21 +42,18 @@ public class SketchActivity extends PApplet {
     float accelY;
 
     public void setup() {
-        maxim1 = new Maxim(this);
-        maxim2 = new Maxim(this);
-        maxim3 = new Maxim(this);
-        maxim4 = new Maxim(this);
-        
-        playerL = maxim1.loadFile("clap-808.wav");
+        maxim = new Maxim(this);
+
+        playerL = maxim.loadFile("clap-808.wav");
         playerL.setLooping(false);
-        
-        playerR = maxim2.loadFile("openhat-analog.wav");
+
+        playerR = maxim.loadFile("openhat-analog.wav");
         playerR.setLooping(false);
-        
-        playerF = maxim3.loadFile("kick-heavy.wav");
+
+        playerF = maxim.loadFile("kick-heavy.wav");
         playerF.setLooping(false);
-        
-        playerB = maxim4.loadFile("snare-brute.wav");
+
+        playerB = maxim.loadFile("snare-brute.wav");
         playerB.setLooping(false);
 
         accel = new Accelerometer();
@@ -67,7 +64,7 @@ public class SketchActivity extends PApplet {
         ellipseMode(3);
 
         cnt = 0;
-        num = 10;
+        num = 150;
         particles = new Particle[num];
         for (int i = 0; i < num; i++) particles[i] = new Particle();
 
@@ -81,6 +78,7 @@ public class SketchActivity extends PApplet {
 
         accelX = accel.getX();
         accelY = accel.getY();
+
 
         if (doClear) {
             background(255);
@@ -125,13 +123,33 @@ public class SketchActivity extends PApplet {
         }
 
         noStroke();
-
+        float time = millis();
         if (initialised && mousePressed) {
 
-            if (accelX > 6) playerL.play();
-            else if(accelX < -6) playerR.play();
-            else if(accelY > 0) playerF.play();
-            else if(accelY < -7) playerB.play();
+            if (accelX > 5) {
+                if (playerL.isPlaying() && (time - lastRelease) > 50 && lastRelease != -1) {
+                    playerL.cue(0);
+                    playerL.play();
+                } else
+                    playerL.play();
+            } else if (accelX < -4) {
+                if (playerR.isPlaying() && (time - lastRelease) > 50 && lastRelease != -1) {
+                    playerR.cue(0);
+                    playerR.play();
+                } else playerR.play();
+            } else if (accelY > 5) {
+                if (playerF.isPlaying() && (time - lastRelease) > 50 && lastRelease != -1) {
+                    playerF.cue(0);
+                    playerF.play();
+                } else playerF.play();
+            } else if (accelY < -2) {
+                if (playerB.isPlaying() && (time - lastRelease) > 50 && lastRelease != -1) {
+                    playerB.cue(0);
+                    playerB.play();
+                } else playerB.play();
+            }
+        }
+        if(initialised && !mousePressed){
             
             int i;
             float dir;
@@ -176,6 +194,10 @@ public class SketchActivity extends PApplet {
             for (int i = 0; i < num; i++) particles[i].age = 0;
             lastRelease = -1;
         } else lastRelease = time;
+
+
+
+
     }
 
     class Particle {
@@ -373,7 +395,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u2028
 
 
     public class Maxim {
-        
+
 
         private float sampleRate = 44100;
 
