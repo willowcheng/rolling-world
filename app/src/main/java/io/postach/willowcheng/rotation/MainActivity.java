@@ -13,7 +13,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -117,13 +116,13 @@ public class MainActivity extends ActionBarActivity {
         int color = Color.parseColor(v.getTag().toString());
         changeColor(color);
         switch (v.getTag().toString()) {
-            case "#ff00bcd4":
+            case "#ffff9800":
                 message = getString(R.string.tip1);
                 break;
             case "#fff44336":
                 message = getString(R.string.tip2);
                 break;
-            case "#ffff9800":
+            case "#ff00bcd4":
                 message = getString(R.string.tip3);
                 break;
             case "#ff009688":
@@ -138,7 +137,7 @@ public class MainActivity extends ActionBarActivity {
                 .withActionMessage("Got it")
                 .withTextColorId(R.color.primaryColor)
                 .withStyle(SnackBar.Style.DEFAULT)
-                .withDuration(SnackBar.MED_SNACK)
+                .withDuration(SnackBar.LONG_SNACK)
                 .show();
     }
 

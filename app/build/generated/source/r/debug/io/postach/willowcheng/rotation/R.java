@@ -1736,8 +1736,7 @@ containing a value of this type.
         public static final int tip3=0x7f0a0013;
         public static final int tip4=0x7f0a0014;
         public static final int tip5=0x7f0a0015;
-        public static final int tip6=0x7f0a0016;
-        public static final int title_activity_main=0x7f0a0017;
+        public static final int title_activity_main=0x7f0a0016;
     }
     public static final class style {
         /**  Customize your theme here. 

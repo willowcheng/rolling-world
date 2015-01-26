@@ -36,9 +36,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dip"
             android:layout_weight="1"
-            android:background="@color/blue"
+            android:background="@color/orange"
             android:onClick="onColorClicked"
-            android:tag="@color/blue" />
+            android:tag="@color/orange" />
 
         <ImageView
             android:layout_width="0dip"
@@ -54,9 +54,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dip"
             android:layout_weight="1"
-            android:background="@color/orange"
+            android:background="@color/blue"
             android:onClick="onColorClicked"
-            android:tag="@color/orange" />
+            android:tag="@color/blue" />
 
         <ImageView
             android:layout_width="0dip"
