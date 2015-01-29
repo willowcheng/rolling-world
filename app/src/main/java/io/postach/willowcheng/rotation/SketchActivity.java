@@ -148,8 +148,7 @@ public class SketchActivity extends PApplet {
                     playerB.play();
                 } else playerB.play();
             }
-        }
-        if(initialised && !mousePressed){
+
             
             int i;
             float dir;
