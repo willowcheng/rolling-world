@@ -1731,12 +1731,18 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000e;
         public static final int abc_toolbar_collapse_description=0x7f0a000f;
         public static final int action_perform=0x7f0a0010;
-        public static final int tip1=0x7f0a0011;
-        public static final int tip2=0x7f0a0012;
-        public static final int tip3=0x7f0a0013;
-        public static final int tip4=0x7f0a0014;
-        public static final int tip5=0x7f0a0015;
-        public static final int title_activity_main=0x7f0a0016;
+        public static final int android_instruction1=0x7f0a0011;
+        public static final int android_instruction2=0x7f0a0012;
+        public static final int android_instruction3=0x7f0a0013;
+        public static final int android_instruction4=0x7f0a0014;
+        public static final int android_instruction5=0x7f0a0015;
+        public static final int android_title=0x7f0a0016;
+        public static final int tip1=0x7f0a0017;
+        public static final int tip2=0x7f0a0018;
+        public static final int tip3=0x7f0a0019;
+        public static final int tip4=0x7f0a001a;
+        public static final int tip5=0x7f0a001b;
+        public static final int title_activity_main=0x7f0a001c;
     }
     public static final class style {
         /**  Customize your theme here. 

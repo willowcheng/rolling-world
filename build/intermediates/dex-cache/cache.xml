@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d6467247ced8a5d51f8ff73a6595d517eddba6">
+        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-32790ea8034650a6d115d9d31026db061d5c937d.jar" />
+    </item>
+    <item
         jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
         jumboMode="false"
         revision="21.1.1"

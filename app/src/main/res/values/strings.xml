@@ -8,5 +8,11 @@
     <string name="tip3">Use different layers of rhythm to make variance</string>
     <string name="tip4">Take use of features for different devices</string>
     <string name="tip5">Be happy to create you own masterpiece</string>
+    <string name="android_title">CASUAL PERCUSSION</string>
+    <string name="android_instruction1">1. Access performance mode by clicking top-right button</string>
+    <string name="android_instruction2">2. When you are in performance mode, touch "Click" to start performance</string>
+    <string name="android_instruction3">3. Adjust position of your phone as you wish</string>
+    <string name="android_instruction4">4. Touch screen to generate sound effect and consecutive touch will not interrupt sound.</string>
+    <string name="android_instruction5">5. Double short touch will clear exist image, don\'t worry about audio functionality</string>
 
 </resources>
