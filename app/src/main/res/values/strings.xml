@@ -3,16 +3,32 @@
 
     <string name="title_activity_main">Rolling World</string>
     <string name="action_perform">Perform</string>
-    <string name="tip1">Always try to perform with a comfortable tempo</string>
-    <string name="tip2">Be emotional if you feel good</string>
-    <string name="tip3">Use different layers of rhythm to make variance</string>
-    <string name="tip4">Take use of features for different devices</string>
-    <string name="tip5">Be happy to create you own masterpiece</string>
+    <string name="tip1">ALWAYS TRY TO PERFORM WITH A COMFORTABLE TEMPO</string>
+    <string name="tip2">BE EMOTIONAL IF YOU FEEL GOOD</string>
+    <string name="tip3">USE DIFFERENT LAYERS OF RHYTHM TO MAKE VARIANCE</string>
+    <string name="tip4">TAKE USE OF FEATURES FOR DIFFERENT DEVICES</string>
+    <string name="tip5">BE HAPPY TO CREATE YOUR OWN MASTERPIECE</string>
     <string name="android_title">CASUAL PERCUSSION</string>
     <string name="android_instruction1">1. Access performance mode by clicking top-right button</string>
     <string name="android_instruction2">2. When you are in performance mode, touch "Click" to start performance</string>
     <string name="android_instruction3">3. Adjust position of your phone as you wish</string>
     <string name="android_instruction4">4. Touch screen to generate sound effect and consecutive touch will not interrupt sound.</string>
     <string name="android_instruction5">5. Double short touch will clear exist image, don\'t worry about audio functionality</string>
+
+
+    <string name="iPad_title">FINGER DRAWING</string>
+    <string name="iPad_instruction1">1. Use Processing IDE to start server</string>
+    <string name="iPad_instruction2">2. Check the IP address of your laptop and port number</string>
+    <string name="iPad_instruction3">3. Remember port number to enable it in your firewall</string>
+    <string name="iPad_instruction4">4. Access laptop\'s IP address with port number via Safari on your iPad or iPhone</string>
+    <string name="iPad_instruction5">5. Touch screen to generate symmetric graphics</string>
+    <string name="iPad_instruction6">6. Remember that audio can be controlled by speed and position of your finger, so perform casually to create your own masterpiece</string>
+
+    <string name="desktop_title">KEYBOARD CREATOR</string>
+    <string name="desktop_instruction1">1. Start from packaged application</string>
+    <string name="desktop_instruction2">2. Click different decks to start different rhythm</string>
+    <string name="desktop_instruction3">3. Drag mouse will influence the speed of rhythm.</string>
+    <string name="desktop_instruction4">4. Use keyboard to control instrument as well as decks as an asset</string>
+    <string name="desktop_instruction5">5. Enjoy your play and improvisation</string>
 
 </resources>
