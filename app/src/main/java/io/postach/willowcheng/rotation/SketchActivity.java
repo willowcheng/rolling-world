@@ -43,7 +43,8 @@ public class SketchActivity extends PApplet {
 
     public void setup() {
         maxim = new Maxim(this);
-
+        
+        // Load all audio resources
         playerL = maxim.loadFile("clap-808.wav");
         playerL.setLooping(false);
 
