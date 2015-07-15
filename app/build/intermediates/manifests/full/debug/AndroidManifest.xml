@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="22" />
 
     <android:uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -17,7 +17,6 @@
         android:maxSdkVersion="18" />
 
     <application
-        android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="Rolling World"
         android:theme="@style/AppTheme" >

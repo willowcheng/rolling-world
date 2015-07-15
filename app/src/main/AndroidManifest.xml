@@ -15,7 +15,6 @@
         android:maxSdkVersion="18" />
 
     <application
-        android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="Rolling World"
         android:theme="@style/AppTheme">

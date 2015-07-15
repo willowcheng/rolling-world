@@ -2,88 +2,81 @@
 <items version="2" >
 
     <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.0.1\classes.jar"
+        jar="/Users/willowcheng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="81d6467247ced8a5d51f8ff73a6595d517eddba6">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-32790ea8034650a6d115d9d31026db061d5c937d.jar" />
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-503e434265019491f7e579aeb71f837e0842a4f9.jar" />
     </item>
     <item
-        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0-86a3a889d3289ab8830a20cb94dfc5ce4850220c.jar" />
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/classes-cceac868a87987aa4dc6e7229ff76a6ba32f1e6d.jar" />
     </item>
     <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="/Users/willowcheng/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-161fe91d52bd2caba062c035e0571d42c74519f3.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\libs\processing-core.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="3d21c0ab1c82c5a0c0a2448a1f38d479110210ca">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\processing-core-ebfbf4f9b46edac3fef26b86e276885b188df540.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6c105956a4c58681d901f8c01082b2a4f715a8d2.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.github.mrengineer13\snackbar\1.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="60dd1fe9808ce6bce3e9fe2adfafffbad51a5848">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-4221b2d599fb29fa4ca34733137377e906ebd206.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-93fc9d189bef138c94804426b7119a4ed2ebf620.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-fe3217b1edb3fa3c8155746048a43478744945d8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\systembartint-1.0.3-631beaddd3219c39bd6e650a2968dbf5420deae7.jar" />
-    </item>
-    <item
-        jar="C:\AndroidWorkspace\Rotation\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.8\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="e724073d032731be77fad0f993e2970fb4429e3a">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\classes-1e7455881587a190f9a7ccb01b30da8414074e18.jar" />
-    </item>
-    <item
-        jar="C:\Users\Wingus\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.1"
+        revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\library-2.4.0-7a28406f3b57ff8f91712a535794635317c5ce04.jar" />
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/library-2.4.0-3be516171197a802af4d4225e66b483b98bc5d5a.jar" />
     </item>
     <item
-        jar="D:\Dev\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.github.mrengineer13/snackbar/1.0.0/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\AndroidWorkspace\Rotation\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5a65484bca24f0eb09cf9d9cc77fbe930774c770.jar" />
+        revision="21.1.2"
+        sha1="60dd1fe9808ce6bce3e9fe2adfafffbad51a5848">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/classes-c10dbb87cc476c5771eec220d786fc2c6e5d3007.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/systembartint-1.0.3-17cdd0c0a3b085e173e76d80d9abf61e31cb347b.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-59c3fa08bae26e0cf9063a673db87946e0d2c2b9.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/libs/processing-core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3d21c0ab1c82c5a0c0a2448a1f38d479110210ca">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/processing-core-641f4f7ec0df3f8904612ebf3e492a6f085cc047.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.8/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e724073d032731be77fad0f993e2970fb4429e3a">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/classes-c24814c43d39765f133f419d61e6f17d5f24ff4f.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/classes-27677915197afe7f3f4e6eb7377233c9880d6a52.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/classes-0901268950b12c7a3291669e9af828682600d467.jar" />
+    </item>
+    <item
+        jar="/Users/willowcheng/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.0.0/3a10b25b6820e19102e118711afe6a66c0bae123/butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/build/intermediates/pre-dexed/debug/butterknife-6.0.0-d2d869d5a416a49f802d8ac322e125039bf88f9d.jar" />
     </item>
 
 </items>

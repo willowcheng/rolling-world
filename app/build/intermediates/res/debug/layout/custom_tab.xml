@@ -9,4 +9,4 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</com.balysv.materialripple.MaterialRippleLayout><!-- From: file:/C:/AndroidWorkspace/Rotation/app/src/main/res/layout/custom_tab.xml -->
+</com.balysv.materialripple.MaterialRippleLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/src/main/res/layout/custom_tab.xml -->

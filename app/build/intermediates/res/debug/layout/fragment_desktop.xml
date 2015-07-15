@@ -13,13 +13,70 @@
         card_view:cardBackgroundColor="@android:color/white"
         card_view:cardCornerRadius="8dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="DESKTOP INSTRUCTION"
-            tools:text="DESKTOP INSTRUCTION" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:padding="16dp"
+                    android:text="@string/desktop_title"
+                    android:textSize="24sp"
+                    tools:text="@string/desktop_title" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="@string/desktop_instruction1"
+                    android:textSize="16sp"
+                    tools:text="@string/desktop_instruction1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="@string/desktop_instruction2"
+                    android:textSize="16sp"
+                    tools:text="@string/desktop_instruction2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="@string/desktop_instruction3"
+                    android:textSize="16sp"
+                    tools:text="@string/desktop_instruction3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="@string/desktop_instruction4"
+                    android:textSize="16sp"
+                    tools:text="@string/desktop_instruction4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="@string/desktop_instruction5"
+                    android:textSize="16sp"
+                    tools:text="@string/desktop_instruction5" />
+
+            </LinearLayout>
+        </ScrollView>
     </android.support.v7.widget.CardView>
-</FrameLayout><!-- From: file:/C:/AndroidWorkspace/Rotation/app/src/main/res/layout/fragment_desktop.xml -->
+</FrameLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/RollingWorld/app/src/main/res/layout/fragment_desktop.xml -->
